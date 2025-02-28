@@ -2,7 +2,7 @@
 
 /* Definindo a variável da imagem de fundo */
 :root {
-    --imagem-fundo: url('/src/Plano-Inclinado_Liberdade_Foto_Tiago-Barros_Secom-1-1024x683.jpg'); /* Caminho para a imagem de fundo */
+    --imagem-fundo: url('src/Plano-Inclinado_Liberdade_Foto_Tiago-Barros_Secom-1-1024x683.jpg'); /* Caminho para a imagem de fundo */
 }
 
 body {
