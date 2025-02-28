@@ -1,0 +1,22 @@
+/* styles.css */
+
+/* Definindo a variável da imagem de fundo */
+:root {
+    --imagem-fundo: url('/src/Plano-Inclinado_Liberdade_Foto_Tiago-Barros_Secom-1-1024x683.jpg'); /* Caminho para a imagem de fundo */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: 
+        linear-gradient(to bottom, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8)), /* Gradiente */
+        var(--imagem-fundo), /* Usando a variável da imagem de fundo */
+        linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0.8) 100%); /* Gradiente transparente no final */
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    line-height: 1.6;
+}
+
+header {
+    margin-bottom: 0 !important;
+}

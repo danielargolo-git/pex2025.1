@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site com Bootstrap 5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="d-flex justify-content-center align-items-center text-center text-white" style="height: 40em;">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <span class="navbar-brand mb-0 fs-1 fw-bold text-uppercase">Carnaval na liberdade</span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="mx-1" id="content">
+
+        <section class="container py-5 bg-primary text-white">
+            <h2 id="titulo" class="fs-2 fw-bold text-uppercase text-center mb-5 pb-5">Eventos programados para o carnaval da Liberdade</h2>
+            <h2 id="titulo" class="fs-1 fw-bold text-uppercase text-start">Shows</h2>
+            <h5 class="fw-light fs-6 text-dark mt-3">Fonte: Semob</h5>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            01 /03 <span class="fs-4 fw-bold ms-3">#Sábado</span>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>MAMBOLADA</li>
+                                <li>MAJUR</li>
+                                <li>KINA RODRIGUES</li>
+                                <li>GUIG GHETTO</li>
+                                <li>OZ POLEMICOS</li>
+                                <li>ISQUEMIA</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                            02 /03 <span class="fs-4 fw-bold ms-3">#Domingo</span>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>MADINA</li>
+                                <li>TAY AGAZZI LG</li>
+                                <li>NETTO BRITTO</li>
+                                <li>NADIANE</li>
+                                <li>VIRGILIO</li>
+                                <li>PIPOCO DO TROVÃO</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                            03 /03 <span class="fs-4 fw-bold ms-3">#Segunda-feira</span>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>WILSINHO</li>
+                                <li>GABRIEL MERCURY</li>
+                                <li>PEGADEIRA</li>
+                                <li>GENNY DANTAS</li>
+                                <li>KART LOVE</li>
+                                <li>O POETA</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                            04 /03 <span class="fs-4 fw-bold ms-3">#Terça-feira</span>
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>O EROTICO</li>
+                                <li>BANDA PRA CASAR</li>
+                                <li>LAZZO MATUMBI</li>
+                                <li>BEAT BOM</li>
+                                <li>-AFRODISIACO</li>
+                                <li>BRAGADÁ</li>
+                                <li>ROBSON MORAIS</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container py-5 bg-info text-white mb-5">
+            <h2 id="titulo" class="fs-1 fw-bold text-uppercase text-start">Trânsito</h2>
+            <h5 class="text-start text-dark fw-light fs-6 mt-3">Fonte: Redebahia</h5>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <p id="transito-conteudo" class="ms-4 mt-4">
+                        Barreiras fixas – Serão instaladas das 13h do dia 1º às 5h do dia 5 de março nos seguintes pontos:
+                        <ul>
+                            <li>Rua Francisco Blanco;</li>
+                            <li>Rua Arquimedes Pessoa;</li>
+                            <li>Rua Gonçalves Lêdo;</li>
+                            <li>Rua Bruno Seabra;</li>
+                            <li>Rua Euzébio de Queiroz;</li>
+                            <li>Rua Domingos Requião;</li>
+                            <li>Rua da Esperança.</li>
+                        </ul>
+                    </p>
+                    <div id="mapa" class="d-flex flex-column align-items-center ">
+                        <p class="fs-4 ms-4 mt-5">Confira no mapa abaixo a localização dos bloqueios de trânsito.</p>
+                        <p class="ms-4 text-secondary">*Ícones de fundo vermelho e cor branca</p>
+                        <div id="mapa" class="d-flex justify-content-center">
+                        <iframe class="mb-3"  src="https://www.google.com/maps/d/u/0/embed?mid=18vBKLBfL6M79h_-Ph4fTqdNf2jyScdc&ehbc=2E312F&noprof=1" width="640" height="480"></iframe>
+                    </div>
+                    </div>
+                </li>
+            </ul>
+            
+        </section>
+    </div>
+
+    <div id="fim" class="py-5 mt-2">
+        <p class="text-center text-white">Projeto de expansão 2025.1 do curso de engenharia de software da faculdade Descomplica.</p>
+        <p class="text-center text-white">Fonte da imagem: Semob</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
